@@ -10,21 +10,14 @@ This Docker-based project processes a log file to extract IP addresses, categori
 - Designed to run inside Docker.
 - Compatible with external MongoDB containers using environment variables.
 
-## Directory Structure
 
-log_ip_extractor/
-├── app/
-│ ├── main.py
-│ ├── requirements.txt
-│ └── test.log
-├── Dockerfile
-└── README.md
 
 ## Setup Instructions
 
-1. Start MongoDB Container
+Precondition: git clone this repo and proceed with below steps:
+
+S1. Start MongoDB Container
 Start MongoDB in Docker:
-```bash
 docker run -d --name mongodb -p 27017:27017 mongo
 
 2. Build the IP Extractor Docker Image
