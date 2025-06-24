@@ -16,7 +16,7 @@ This Docker-based project processes a log file to extract IP addresses, categori
 
 Precondition: git clone this repo and proceed with below steps:
 
-S1. Start MongoDB Container
+1. Start MongoDB Container
 Start MongoDB in Docker:
 docker run -d --name mongodb -p 27017:27017 mongo
 
